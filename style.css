@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+header{
+    width: 100%;
+    height: 400px;
+    background-image:linear-gradient(rgba(128, 128, 128, 0.658),rgba(0, 0, 0, 0.692)), url(images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.text{
+    width: 50%;
+    height:150px;
+    margin-left: 250px;
+    margin-top: 150px;
+    position: absolute;
+    text-align:justify;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    background-color:rgba(255, 235, 205, 0.219)
+
+    
+}
+a{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 15px;
+    margin-left: 200px;
+    background-color:orange;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+a:hover{
+    background-color: black;
+    color: orange;
+}
+section{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.facebook{
+    width: 45%;
+    flex-basis: left;
+    margin-left: 20px;
+}
+.facebook p{
+    font-size: 20px;
+    text-align: center;
+
+}
+.pic{
+    width: 45%;
+    flex-basis: right;
+
+}
+.pic img{
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 0;
+}
+.prio-pic{
+    flex-basis: left;
+    width: 45%;
+    margin-left: 30px;
+}
+.prio-pic img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 30px;
+}
+.about-her{
+    flex-basis: right;
+    width: 45%;
+    background-color: rgba(255, 68, 0, 0.582);
+    height:২00px;
+    padding:10px 15px;
+    margin-top: 25px;
+    margin-right: 40px;
+    box-shadow: 2px 2px 30px gray;
+    border-radius: 5px;
+
+}
+.about-her p{
+    font-size: 20px;
+    text-align: justify;
+    color:white;
+    font-weight: bold;
+}
